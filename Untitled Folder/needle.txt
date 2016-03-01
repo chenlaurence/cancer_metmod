@@ -1,0 +1,66 @@
+########################################
+# Program: needle
+# Rundate: Thu  4 Feb 2016 16:16:26
+# Commandline: needle
+#    -outfile needle.txt
+#    -asequence 3iar.faa
+#    -bsequence P00813-1.faa
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: needle.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: 3iar.A
+# 2: P00813-1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 364
+# Identity:     359/364 (98.6%)
+# Similarity:   359/364 (98.6%)
+# Gaps:           5/364 ( 1.4%)
+# Score: 1889.0
+# 
+#
+#=======================================
+
+3iar.A             1 ----PAFDKPKVELHVHLDGSIKPETILYYGRRRGIALPANTAEGLLNVI     46
+                         ||||||||||||||||||||||||||||||||||||||||||||||
+P00813-1           1 MAQTPAFDKPKVELHVHLDGSIKPETILYYGRRRGIALPANTAEGLLNVI     50
+
+3iar.A            47 GMDKPLTLPDFLAKFDYYMPAIAGCREAIKRIAYEFVEMKAKEGVVYVEV     96
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+P00813-1          51 GMDKPLTLPDFLAKFDYYMPAIAGCREAIKRIAYEFVEMKAKEGVVYVEV    100
+
+3iar.A            97 RYSPHLLANSKVEPIPWNQAEGDLTPDEVVALVGQGLQEGERDFGVKARS    146
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+P00813-1         101 RYSPHLLANSKVEPIPWNQAEGDLTPDEVVALVGQGLQEGERDFGVKARS    150
+
+3iar.A           147 ILCCMRHQPNWSPKVVELCKKYQQQTVVAIDLAGDETIPGSSLLPGHVQA    196
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+P00813-1         151 ILCCMRHQPNWSPKVVELCKKYQQQTVVAIDLAGDETIPGSSLLPGHVQA    200
+
+3iar.A           197 YQEAVKSGIHRTVHAGEVGSAEVVKEAVDILKTERLGHGYHTLEDQALYN    246
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+P00813-1         201 YQEAVKSGIHRTVHAGEVGSAEVVKEAVDILKTERLGHGYHTLEDQALYN    250
+
+3iar.A           247 RLRQENMHFEICPWSSYLTGAWKPDTEHAVIRLKNDQANYSLNTDDPLIF    296
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+P00813-1         251 RLRQENMHFEICPWSSYLTGAWKPDTEHAVIRLKNDQANYSLNTDDPLIF    300
+
+3iar.A           297 KSTLDTDYQMTKRDMGFTEEEFKRLNINAAKSSFLPEDEKRELLDLLYKA    346
+                     ||||||||||||||||||||||||||||||||||||||||||||||||||
+P00813-1         301 KSTLDTDYQMTKRDMGFTEEEFKRLNINAAKSSFLPEDEKRELLDLLYKA    350
+
+3iar.A           347 YGMPPSASAGQNLA    360
+                     ||||||||||||| 
+P00813-1         351 YGMPPSASAGQNL-    363
+
+
+#---------------------------------------
+#---------------------------------------
